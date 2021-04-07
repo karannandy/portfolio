@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #233f64;
+    opacity: 0.8;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .fab {
+    margin-right: 2px;
+    color: antiquewhite;
+  }
+  
+  .fa-first-order {
+    margin-top: 8px;
+  }
+
+  .title-navbar h1 {
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    color: antiquewhite;
+  }
+
+  .fa-twitter, .fa-linkedin {
+    margin-top: 15px;
+  }
+  
+  .logo-left {
+    float: left;
+  }
+  
+  .logo-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .logo-right a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: antiquewhite;
+    display: block;
+    float: left;
+  }
+  
+  .about-me-wrapper {
+    padding: 180px 0 100px 0;
+    color: antiquewhite;
+    text-align: center;
+
+  }
+  
+  .about-me-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-shadow: #2f3136 2px 2px 2px;
+  }
+  
+  .about-me-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+    background-color: #2f3136;
+    border: 0.5px solid #36393f;
+    border-radius: 6px;
+    font-size: 24px;
+    padding: 10px 40px;
+  }
+  
+  .container img {
+    width: 300px;
+    opacity: 0.9;
+  }
+  
+  .social-wrapper {
+    padding-bottom: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #2f3136;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: antiquewhite;
+  }
+  
+  .twitter, .linkedin {
+    float: left;
+    width: 50%;
+  }
+
+  .twitter h2 {
+    color: antiquewhite;
+  }
+
+  .linkedin h2 {
+    color: antiquewhite;
+  }
+
+  .twitter a {
+    color: antiquewhite;
+  }
+
+  .linkedin a {
+    color: antiquewhite;
+  }
+
+  .heading h1 {
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: #2f3136 2px 2px 2px;
+    opacity: 0.9;
+  }
+  
+  .skills-wrapper {
+    border-bottom: 2px solid #2f3136;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.6);
+    opacity: 0.9;
+  }
+
+  .heading li {
+    list-style: none;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #2f3136;
+  }
+
+  .skills-wrapper a {
+    color: #2f3136;
+  }
+  
+  footer h1 {
+    color: antiquewhite;
+    text-shadow: #2f3136 2px 2px 2px;
+    font-weight: bold;
+  }
+  
+  footer li {
+    color: antiquewhite;
+    font-size: 18px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #2f3136;
+    opacity: 0.8;
+  }
